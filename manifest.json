@@ -1,0 +1,23 @@
+{
+  "name": "Twitter Trends Terminator",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extensions removes the Twitter trends element on the Twitter homepage when logged in.",
+  "homepage_url": "http://www.fabiandeitelhoff.de",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "https://twitter.com/*",
+    "http://twitter.com/*"
+  ]
+}
