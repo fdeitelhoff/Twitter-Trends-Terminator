@@ -16,7 +16,9 @@
     ],
     "persistent": true
   },
+  "options_page": "src/options/index.html",
   "permissions": [
+    "storage",
     "https://twitter.com/*",
     "http://twitter.com/*"
   ]
